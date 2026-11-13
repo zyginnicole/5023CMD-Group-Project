@@ -58,7 +58,7 @@ mappo:
   gae_lambda: 0.95
   clip_eps: 0.2
   ppo_epochs: 5
-  minibatch_size: 64    # (episode, step) samples per gradient step
+  minibatch_size: 64          # (episode, step) samples per gradient step
   entropy_coef: 0.01
   value_coef: 0.5
   max_grad_norm: 10.0
